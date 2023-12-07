@@ -1,0 +1,73 @@
+.home-top{
+    margin: 0px !important;
+}
+
+.gradient-text{
+  background-image: linear-gradient(to left, #1F3B70, #FFAE3B);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+}
+
+.home-bg{
+    background: linear-gradient(133deg, hsla(240, 64%, 27%, 1) 48%, hsla(240, 100%, 2%, 1) 100%);
+}
+
+.home-heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: #B9F734 !important;
+}
+
+.home-arrow-text{
+    font-size: 24px;
+    font-weight: 600;
+    color: white !important;
+    margin-bottom: 15px;
+}
+
+.arrow-color{
+    color: #B9F734;
+}
+
+.home-caption{
+    margin-top: 20px;
+    color: #e7e7e7;
+}
+
+.button-know-more{
+    padding: 10px 18px;
+    color: black;
+    background-color: #B9F734;
+    border: 1px solid white;
+    border-radius: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all ease 0.3s;
+}
+
+.button-know-more:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: #B9F734;
+    transition: all ease-in 0.3s;
+}
+
+.button-brochure{
+    padding: 10px 18px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all ease 0.3s;
+
+}
+
+.button-brochure:hover{
+    background-color: #B9F734;
+    border: 1px solid white;
+    color: black;
+    transition: all ease-in 0.3s;
+}

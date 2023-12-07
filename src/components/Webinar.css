@@ -1,0 +1,23 @@
+.webinar-heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: #B9F734 !important;
+}
+
+.cohert-started{
+    color: blue !important;
+}
+
+.cohert-caption{
+    color: black !important;
+    font-weight: 800;
+}
+
+.cohert-pointers{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cohert-icon{
+    color: orange;
+}

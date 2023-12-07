@@ -1,0 +1,56 @@
+.slider-title{
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  padding: 0px 0px 20px 10px;
+}
+
+.slider-span{
+  font-size: 24px;
+  font-weight: 700;
+  color: blue;
+}
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 20px 0px 30px 0px;
+    background-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  /* Remove the fade effect on both sides */
+  .logos:before,
+  .logos:after {
+    display: none;
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 15s slide infinite linear;
+  }
+  
+  .logos-slide img {
+    height: 100px;
+    margin: 0 30px;
+  }
+
+  .slider-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

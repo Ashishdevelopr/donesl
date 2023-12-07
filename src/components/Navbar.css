@@ -1,0 +1,45 @@
+.navbar-start{
+    box-shadow: 0 3px 14px 0 rgba(248, 248, 255, 0.08);
+    font-weight: 500;
+}
+
+.university-logo{
+    height: 80px;
+    width: 80px;
+}
+
+.nav-item{
+margin-left: 1rem;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+
+.nav-link.active:hover{
+    transition: all ease 0.3s;
+    color: blue;
+}
+
+.nav-section{
+justify-content:right;
+}
+
+.button-login{
+    padding: 4px 13px;
+    color: white;
+    background-color: rgb(240, 143, 16);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all ease 0.3s;
+
+}
+
+.button-login:hover{
+    background-color: #ffffff;
+    color: white;
+    color: black;
+    transition: all ease-in 0.3s;
+}
+
